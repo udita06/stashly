@@ -14,7 +14,7 @@ College clubs with shared physical equipment — robotics, hardware, photography
 
 <!-- Excalidraw or Miro only. Link the live board AND embed/link a static export as backup. -->
 
-![Sketch](./docs/sketch.png)
+![Sketch](./Docs/Sketch.png)
 
 [View live board (Excalidraw / Miro)](https://excalidraw.com/#json=rnyHay_yHqEtFcERw0zH2,E7Uj5Gjlof8CrTsHHWG2Ng)
 
@@ -22,22 +22,22 @@ College clubs with shared physical equipment — robotics, hardware, photography
 
 ## Documents
 
-- [Product Requirements](./docs/PRD.md)
-- [Architecture](./docs/ARCHITECTURE.md)
-- [API Spec](./docs/API_SPEC.md)
-- [Roadmap](./docs/ROADMAP.md)
-- [Requirements](./docs/REQUIREMENTS.md)
+- [Product Requirements](./Docs/PRD.md)
+- [Architecture](./Docs/ARCHITECTURE.md)
+- [API Spec](./Docs/API_SPEC.md)
+- [Roadmap](./Docs/ROADMAP.md)
+- [Requirements](./Docs/REQUIREMENTS.md)
 
 ---
 
 ## Planned Stack
 
-| Layer | Technology | Why |
-|---|---|---|
-| Framework | React | Most widely taught framework in college dev/coding clubs, with the largest volume of beginner tutorials and community support to draw on while learning. |
-| Database | Firebase Firestore | Schema-less NoSQL database with no server setup, a free tier that comfortably covers a single club's usage, and direct integration with the frontend. |
-| Auth | Firebase Authentication (Google Sign-In) | Nearly every student already has a Google account, so there's no new password to create, and Firebase handles tokens/sessions without custom auth logic. |
-| Hosting | Firebase Hosting | Free, deploys from the same Firebase project as the database and auth, and is built for exactly this kind of small static/React app. |
+| Layer     | Technology                               | Why                                                                                                                                                      |
+| --------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Framework | React                                    | Most widely taught framework in college dev/coding clubs, with the largest volume of beginner tutorials and community support to draw on while learning. |
+| Database  | Firebase Firestore                       | Schema-less NoSQL database with no server setup, a free tier that comfortably covers a single club's usage, and direct integration with the frontend.    |
+| Auth      | Firebase Authentication (Google Sign-In) | Nearly every student already has a Google account, so there's no new password to create, and Firebase handles tokens/sessions without custom auth logic. |
+| Hosting   | Firebase Hosting                         | Free, deploys from the same Firebase project as the database and auth, and is built for exactly this kind of small static/React app.                     |
 
 ---
 
@@ -51,4 +51,4 @@ College clubs with shared physical equipment — robotics, hardware, photography
 
 ---
 
-*Submitted to Journey to Mastery — Level 1: Ronin*
+_Submitted to Journey to Mastery — Level 1: Ronin_
