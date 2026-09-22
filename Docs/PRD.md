@@ -1,6 +1,7 @@
 # Product Requirements Document (PRD)
 
 ## Product Name (working title)
+
 **Stashly** — a shared inventory and borrow/return tracker for college club gear, built to handle both club-owned and individually-owned items.
 
 ---
@@ -10,11 +11,12 @@
 College clubs that work with physical equipment — robotics, coding/hardware, photography, dance (props/costumes), music (instruments) — routinely share gear across members. In practice, almost none of these clubs have a real system for tracking who has what. The default process is asking around in person or over WhatsApp: "does anyone have the multimeter?", "who took the ultrasonic sensor last week?"
 
 This breaks down in three specific, observable ways:
+
 1. **Person availability** — the person who has the item may not be reachable when someone else needs it or needs to confirm its whereabouts.
 2. **Time lag** — even when someone does respond, resolving "who has X" through informal messaging takes minutes to hours, disrupting build sessions that often happen under time pressure (competition prep, project deadlines).
 3. **Lost tracking over time** — with no log, items drift between members over weeks, and nobody — including the club's own inventory-conscious members — can say with confidence where a given item currently is, or who is actually responsible for it.
 
-This is a first-hand, currently-experienced problem in the author's own robotics club, where inventory tracking is 100% informal (no spreadsheet, no log, no owner role in most cases) and all three failure modes above occur regularly. It generalizes naturally to other clubs with shared physical resources, because the underlying cause — no shared source of truth, high friction to log anything — is structural, not specific to one club's habits.
+This is a first-hand, currently-experienced problem in our own college clubs, where inventory tracking is 100% informal (no spreadsheet, no log, no owner role in most cases) and all three failure modes above occur regularly. It generalizes naturally to other clubs with shared physical resources, because the underlying cause — no shared source of truth, high friction to log anything — is structural, not specific to one club's habits.
 
 A second, less obvious version of this problem makes it worse: **not everything shared within a club is actually club property.** Members frequently lend personal gear — a senior's leftover sensor kit, someone's own soldering iron or multimeter — because the club doesn't own enough equipment to go around. These individually-owned items get tracked even less carefully than club-owned ones, even though losing or damaging them matters more to the person who owns them. No existing informal process (or generic inventory tool) distinguishes "club asset" from "personal item on loan," which means the person who cares most about an item's safe return has the least visibility into where it is.
 
@@ -22,9 +24,10 @@ A second, less obvious version of this problem makes it worse: **not everything 
 
 ## Target User
 
-**Primary user:** Active members of college technical or hobby clubs (robotics, coding/hardware, photography, dance, music) — typically second- and third-year students — who regularly borrow or lend physical equipment as part of club activities, project work, or event/competition prep.
+**Primary user:** Active members of college technical or hobby clubs (robotics, coding/hardware, photography, dance, music) — who regularly borrow or lend physical equipment as part of club activities, project work, or event/competition prep.
 
 **Two specific sub-roles within this group:**
+
 - **Borrowers** — any club member who needs to use a shared item temporarily and currently has no reliable way to check its status before asking around.
 - **Item owners** — either the club itself (as an entity, for club-purchased equipment) or an individual student who has made their personally-owned item available to other members. Individual owners specifically need visibility into who currently has their item and for how long.
 
